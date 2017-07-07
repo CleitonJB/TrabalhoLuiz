@@ -1,0 +1,55 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package br.edu.iff.quissama.cj_is_back;
+
+import javax.swing.JOptionPane;
+
+/**
+ * Este código foi importado de um programa escrito em C por um ser aleatório;
+ *
+ * @author aluno
+ */
+public class Códigoaleatório {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    int um, dois, tres;
+    System.out.print("\nPor favor, digite o primeiro número inteiro, sem vírgulas!:\n");
+    JOptionPane.showInputDialog("%d",&um);
+    System.out.print("\nPor favor, digite o segundo número inteiro, sem vírgulas!:\n");
+    JOptionPane.showInputDialog("%d",&dois);
+    System.out.print("\nPor favor, digite o terceiro e último número inteiro, sem vírgulas!:\n");
+    JOptionPane.showInputDialog("%d",&tres);
+    if(um > dois){
+        if(um > tres){
+            System.out.print("\nO maior número digitado foi: %d\n",um);
+            }else{
+            System.out.print("\nO maior número digitado foi: %d\n",tres);
+    }
+    }else{
+    if(dois > tres){
+        System.out.print("\nO maior número digitado foi: %d\n",dois);
+        }else{
+        System.out.print("\nO maior número digitado foi: %d\n",tres);
+    }
+    }
+    
+    if(um < dois){
+        if(um < tres){
+            System.out.print("\nO menor número digitado foi: %d\n",um);
+            }else{
+            System.out.print("\nO menor número digitado foi: %d\n",tres);
+    }
+    }else{
+    if(dois < tres){
+        System.out.print("\nO menor número digitado foi: %d\n",dois);
+        }else{
+        System.out.print("\nO menor número digitado foi: %d\n",tres);
+    }
+    }
+    }
